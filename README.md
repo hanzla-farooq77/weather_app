@@ -1,16 +1,24 @@
-# notes_app
+# Weather App
 
-A new Flutter project.
+A real-time weather app built with Flutter. Uses Weatherstack API to show live weather data by city search.
+
+## Features
+
+- Search weather by city name
+- Shows temperature, humidity, wind speed and feels like
+- Built with Riverpod state management
+- Clean architecture (Service, Model, Provider, UI)
+
+## Tech Stack
+
+- Flutter & Dart
+- Weatherstack API
+- Riverpod
+- HTTP package
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clone the repo
+2. Add your API key in `lib/constants/api_constant.dart`
+3. Run `flutter pub get`
+4. Run `flutter run`
